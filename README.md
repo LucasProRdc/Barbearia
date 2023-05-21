@@ -1,1 +1,1 @@
-# Barbearia
+Estou criando esse projeto pra aprimorar meus conhecimentos no Django framework, bem como ajudar um cliente a melhorar seus negocios em sua barbearia. Com um sistema feito sobe medida para atender as suas  necessidades específicas.
