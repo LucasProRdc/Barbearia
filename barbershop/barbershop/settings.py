@@ -55,7 +55,7 @@ ROOT_URLCONF = 'barbershop.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['mytemplates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
