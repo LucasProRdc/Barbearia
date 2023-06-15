@@ -1,13 +1,15 @@
 {% extends 'base.html' %}
 
+{% load bootstrap %}
+
 {% block title %}Cadastro de clinte{% endblock %}
 
 {% block main %}
 <form  method="post">
 
     {% csrf_token %}
-    {{ form }}
+    {{ form|bootstrap }}
 
-    <button type="submit">Save</button>
+    <input class="btn btn-primary" type="submit" value="Submit">
 </form>
 {% endblock %}
