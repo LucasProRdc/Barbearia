@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+{% extends 'base.html' %}
+
+{% block title %}formulario cliente{% endblock %}
+
+{% block main %}
 <body>
     
     <h1>Tem certeza que deseja excluir o registro abaixo?</h1>
@@ -15,5 +13,4 @@
 
         <button type="submit">Delete</button>
     </form>
-</body>
-</html>
+{% endblock %}
